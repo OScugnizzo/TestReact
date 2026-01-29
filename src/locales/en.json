@@ -1,0 +1,8 @@
+{
+  "main_title": "My new project",
+  "welcome": "Welcome, {{name}}!",
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel"
+  }
+}
