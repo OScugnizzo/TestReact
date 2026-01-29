@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { useTranslation } from 'react-i18next';
+import garfieldImg from './assets/garfield.png';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,11 @@ function App() {
         </a>
       </div>
       <h1>{t('welcome', { name: "Pippo" })}</h1>
+      <img 
+        src={garfieldImg} 
+        alt="Garfield" 
+        style={{ width: '200px', borderRadius: '10px' }} 
+      />
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
